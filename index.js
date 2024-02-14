@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const allroutes = require('./routes/allRoutes')
 const cors = require('cors');
 require('dotenv').config()
-const PORT = process.env.port || 4000;
+const PORT = process.env.port || 5000;
 
 
 let db = async() => {
